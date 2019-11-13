@@ -11,10 +11,9 @@ npm install @codewell/get-canvas-mouse-position
 ```JavaScript
 import getCanvasMousePosition from '@codewell/get-canvas-mouse-position':
 
-const canvas = // Get the canvas element somehow
 
 const handleClick = (event) => {
-  const mousePosition = getCanvasMousePosition(canvas, event);
+  const mousePosition = getCanvasMousePosition(event);
   const {x, y} = mousePosition; // The coordinate that was clicked on the canvas
 }
 

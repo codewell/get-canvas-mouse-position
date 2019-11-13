@@ -4,7 +4,8 @@
  * @param {Object} canvas - HTML canvas
  * @returns {Object} - Returns mouse position {x, y}
  */
-const getCanvasMousePosition = (canvas, event) => {
+const getCanvasMousePosition = (event) => {
+  const canvas = event.target;
   const rect = canvas.getBoundingClientRect();
   return {
     x: event.clientX - rect.x,
