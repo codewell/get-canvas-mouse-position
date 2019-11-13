@@ -1,0 +1,26 @@
+{
+  "name": "@codewell/get-canvas-mouse-position",
+  "version": "1.0.0",
+  "description": "Get the position of a mouse on a canvas triggered by an event",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewell/get-canvas-mouse-position.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codewell/get-canvas-mouse-position/issues"
+  },
+  "homepage": "https://github.com/codewell/get-canvas-mouse-position#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
