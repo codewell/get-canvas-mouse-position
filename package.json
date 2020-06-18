@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/codewell/get-canvas-mouse-position#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^26.0.1"
   }
 }
